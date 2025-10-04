@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emine Eroğlu — Yenilikçi Çözüm</title>
+  <meta name="description" content="Emine Eroğlu — küresel bir sorunu çözmeye odaklanan yenilikçi girişim. Açıklama, çözüm ve gelecek hedefleri burada." />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#7c3aed; --muted:#94a3b8; --glass: rgba(255,255,255,0.03);
+      --radius:18px; --max-width:1100px; --gap:24px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#071028 0%, #081225 60%); color:#e6eef8; -webkit-font-smoothing:antialiased}
+    .container{max-width:var(--max-width); margin:36px auto; padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3b82f6);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center;margin-top:34px}
+    .card{background:var(--card);padding:26px;border-radius:var(--radius);box-shadow:0 6px 30px rgba(8,12,20,0.6)}
+    .cta{display:inline-block;padding:12px 18px;border-radius:12px;background:linear-gradient(90deg,var(--accent),#4f46e5);color:white;text-decoration:none;font-weight:600;box-shadow:0 8px 30px rgba(124,58,237,0.18)}
+
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
+    .feature{background:var(--glass);padding:18px;border-radius:12px}
+    .feature h3{margin:0 0 8px}
+    .section{margin-top:28px}
+
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .roadmap{display:flex;flex-direction:column;gap:12px}
+    .step{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:14px;border-radius:10px}
+
+    footer{margin-top:36px;padding:18px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+
+    /* Responsive */
+    @media (max-width:980px){.hero{grid-template-columns:1fr;}.features{grid-template-columns:1fr 1fr}.two-col{grid-template-columns:1fr}.logo{width:48px;height:48px}}
+    @media (max-width:620px){.features{grid-template-columns:1fr}.container{padding:16px}}
+
+    /* Small helpers */
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:600}
+    .kbd{background:#071028;padding:6px 8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+
+    /* Contact form */
+    form input, form textarea{width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    form label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:620px){.grid-2{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="brand">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=48&q=80" alt="Emine Eroğlu sol yeni görsel" style="width:48px;height:48px;border-radius:12px;object-fit:cover;" />
+          <div>
+            <h1>Emine Eroğlu</h1>
+            <p class="lead">Küresel bir sorunu teknoloji ve sürdürülebilir yaklaşımla çözmeyi hedefleyen yenilikçi girişim.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">Hakkında</a>
+        <a href="#solution">Çözüm</a>
+        <a href="#roadmap">Hedefler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+  <div class="card" style="position:relative">
+          <!-- Hero Illustration -->
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Gökyüzü ve çevre temalı hero görseli" style="position:absolute;right:-120px;top:-40px;width:220px;max-width:40vw;z-index:0;opacity:0.8;pointer-events:none;border-radius:18px;object-fit:cover;" />
+          <h2 style="margin-top:14px">Sürdürülebilir Atık Yönetimi Platformu</h2>
+          <p class="muted" style="margin-top:10px">
+            Bu bölümde girişiminizin kısa tanıtımını verin. Örnek metin aşağıdadır — kendi fikrinize göre düzenleyin.
+          </p>
+          <p style="margin-top:12px;line-height:1.5">
+            Emine Eroğlu, şehirlerdeki atık akışını gerçek zamanlı veri, akıllı rota optimizasyonu ve kullanıcı teşvikleri ile yöneterek atık toplama maliyetlerini düşürür, geri dönüşüm oranlarını artırır ve karbon emisyonlarını azaltır. Platform; belediyeler, atık toplama firmaları ve bireysel kullanıcılar için uçtan uca çözüm sağlar.
+          </p>
+          <div style="margin-top:18px;display:flex;gap:12px">
+            <a class="cta" href="#contact">Demo Talep Et</a>
+            <a href="#about" style="color:var(--muted);align-self:center;text-decoration:none">Daha fazla öğren</a>
+          </div>
+        </div>
+
+  <div class="features" style="margin-top:18px">
+          <div class="feature">
+            <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=64&q=80" alt="Küresel çevre sorunu başlık görseli" style="width:32px;height:32px;margin-bottom:8px;border-radius:8px;object-fit:cover;" />
+            <h3>Hedeflenen Küresel Sorun</h3>
+            <p class="muted">Atık yönetimi, şehirleşme ile artan karbon emisyonları ve kaynak israfı. Bu problem çevresel eşitsizlik ve ekonomik maliyete yol açıyor.</p>
+          </div>
+          <div class="feature">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=64&q=80" alt="Doğal kaynaklar ve çevre temalı görsel" style="width:32px;height:32px;margin-bottom:8px;border-radius:8px;object-fit:cover;" />
+            <h3>Neden Önemli?</h3>
+            <p class="muted">Sistematik atık yönetimi karbonsuzlaşma hedeflerine katkı sağlar, doğal kaynakların korunmasını destekler ve yerel ekonomiyi iyileştirir.</p>
+          </div>
+          <div class="feature">
+            <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=64&q=80" alt="Yenilikçi teknoloji ve geri dönüşüm temalı görsel" style="width:32px;height:32px;margin-bottom:8px;border-radius:8px;object-fit:cover;" />
+              <h3>Fark Yaratan Nokta</h3>
+                <li><img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=32&q=80" alt="Yüksek geri dönüşüm görseli" style="width:18px;height:18px;vertical-align:middle;margin-right:4px;border-radius:4px;object-fit:cover;" /> Yüksek geri dönüşüm</li>
+            <p class="muted">Gerçek zamanlı veri + kullanıcı teşvikleri + otomatik optimizasyon ile hem toplama maliyetleri düşürülür hem de geri dönüşüm teşvik edilir.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Hızlı Bilgiler</h3>
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=64&q=80" alt="Bilgi ve analiz temalı görsel" style="width:32px;height:32px;margin-bottom:8px;border-radius:8px;object-fit:cover;" />
+          <p class="muted" style="margin-top:8px">Durum: Erken Aşama / MVP hazır</p>
+          <p class="muted">Sektör: Çevre Teknolojileri (Cleantech)</p>
+          <p class="muted">Hedef Bölgeler: Küresel, pilot şehir projeleriyle başlamayı planlıyoruz.</p>
+          <div style="margin-top:12px">
+            <strong>Kullanıcı faydaları</strong>
+            <ul style="margin-top:8px;color:var(--muted)">
+              <li><img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=32&q=80" alt="Ekonomik fayda temalı görsel" style="width:18px;height:18px;vertical-align:middle;margin-right:4px;border-radius:4px;object-fit:cover;" /> Daha az maliyet</li>
+              <li><img src="https://images.unsplash.com/photo-1465101178521-c1a4c8a0f8f5?auto=format&fit=crop&w=32&q=80" alt="Yüksek geri dönüşüm ve atık ayrıştırma temalı görsel" style="width:18px;height:18px;vertical-align:middle;margin-right:4px;border-radius:4px;object-fit:cover;" /> Yüksek geri dönüşüm</li>
+              <li><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=32&q=80" alt="Düşük karbon temalı görsel" style="width:18px;height:18px;vertical-align:middle;margin-right:4px;border-radius:4px;object-fit:cover;" /> Daha düşük karbon salınımı</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Hakkında / Problem -->
+    <section id="about" class="section">
+      <div class="card">
+        <h2>Girişiminizin Açıklaması</h2>
+        <p class="muted" style="margin-top:10px;line-height:1.6">
+          Bu kısımda girişim fikrinin ayrıntılı tanımını yazın. Aşağıdaki örnek metin, atık yönetimi örneğine göredir; kendi fikriniz için doğrudan değiştirin.
+        </p>
+        <p style="margin-top:12px;line-height:1.6">
+          Emine Eroğlu, şehir altyapısından toplanan atık verilerini sensörler ve kullanıcı raporları ile birleştirir. Akıllı algoritmalar, toplama rotalarını gerçek zamanlı olarak optimize ederek tarlık kapasite aşımı ve gereksiz seferleri azaltır. B2B ve B2C modelleriyle gelir elde edilir: belediyeler için lisans, işletmeler için API ve kullanıcılar için teşvik programları.
+        </p>
+
+        <div style="margin-top:18px" class="two-col">
+          <div>
+            <h3>Küresel Sorunu Nasıl Çözüyor?</h3>
+            <p class="muted" style="line-height:1.6">Atık toplama süreçlerindeki verimsizlikler yüksek enerji tüketimi ve düşük geri dönüşüm oranlarıyla sonuçlanıyor. Platformumuz bu noktada müdahale ederek kaynak kullanımını optimize eder, emisyonu azaltır ve geri dönüşüm akışını ekonomik olarak cazip hale getirir. Pilot projelerle her şehir için lokal uyarlamalar yapılır.</p>
+          </div>
+          <div>
+            <h3>Neden Önemli?</h3>
+            <p class="muted" style="line-height:1.6">Çözüm, sürdürülebilir kalkınma hedefleriyle doğrudan örtüşür. Hem çevresel hem de ekonomik etki yaratır; ayrıca sosyal fayda (daha temiz şehirler, sağlık) sağlar. Yatırımcılar ve kamu kurumları için güçlü etki-risk dengesi sunar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Çözüm ve çalışma şekli -->
+    <section id="solution" class="section">
+      <div class="card">
+        <h2>Çözümümüz — Nasıl Çalışır?</h2>
+        <p class="muted" style="margin-top:10px;line-height:1.6">Aşağıda akışın adım adım özeti yer almaktadır.</p>
+        <ol style="margin-top:12px;color:var(--muted);line-height:1.7">
+          <li><strong>Veri Toplama:</strong> Sensörler, mobil uygulama bildirimleri ve kamusal veriler toplanır.</li>
+          <li><strong>Analiz & Modelleme:</strong> Makine öğrenmesi modelleri doluluk, trafik ve operasyonel maliyetleri öngörür.</li>
+          <li><strong>Optimizasyon:</strong> Rotalar, araç kullanımı ve toplama zamanlaması optimize edilir.</li>
+          <li><strong>Teşvik Mekanizması:</strong> Bireyler ve işletmeler geri dönüştürülen atıklar için puan ve ödeme kazanır.</li>
+          <li><strong>Raporlama & KPI:</strong> Belediyeler ve şirketler için çevresel ve mali performans panelleri sunulur.</li>
+        </ol>
+
+        <div style="margin-top:16px" class="grid-2">
+          <div>
+            <h3>Teknoloji</h3>
+            <p class="muted">IoT sensörleri, bulut veri katmanı, ML modelleri ve mobil/web uygulamalar — hepsi güvenlik ve ölçeklenebilirlik ön planda tutularak tasarlandı.</p>
+          </div>
+          <div>
+            <h3>İş Modeli</h3>
+            <p class="muted">Abonelikler, kullanım başı ücretlendirme ve veri lisanslama ile çok kanallı gelir modeli.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gelecek hedefleri / roadmap -->
+    <section id="roadmap" class="section">
+      <div class="card">
+        <h2>Gelecek Hedefleri</h2>
+        <p class="muted" style="margin-top:10px">Kısa, orta ve uzun vadeli hedeflerimiz aşağıdadır. Tarihleri kendi planınıza göre düzenleyin.</p>
+        <div class="roadmap" style="margin-top:12px">
+          <div class="step"><img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=32&q=80" alt="Pilot şehir temalı görsel" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;border-radius:4px;object-fit:cover;" /><strong>Q4 2025 — MVP ve Pilot</strong><div class="muted">MVP lansmanı, 1 pilot şehir, ilk müşteriler ve kullanıcı geri bildirimi.</div></div>
+          <div class="step"><img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=32&q=80" alt="Ölçeklendirme temalı görsel" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;border-radius:4px;object-fit:cover;" /><strong>2026 — Ölçeklendirme</strong><div class="muted">5 şehirde yaygınlaştırma, belediye ve kurumsal anlaşmaları.</div></div>
+          <div class="step"><img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=32&q=80" alt="Uluslararası büyüme ve şehirler temalı yeni görsel" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;border-radius:4px;object-fit:cover;" /><strong>2027 — Uluslararası Büyüme</strong><div class="muted">Farklı coğrafyalara açılma, yerel ortaklıklar, gelir optimizasyonu.</div></div>
+          <div class="step"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=32&q=80" alt="Akıllı şehir altyapısı temalı görsel" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;border-radius:4px;object-fit:cover;" /><strong>Uzun Vadeli</strong><div class="muted">Akıllı şehir altyapısının parçası olmak, net sıfır hedeflerine katkıda bulunmak.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim formu -->
+    <section id="contact" class="section">
+      <div class="card">
+        <h2>İletişim</h2>
+        <p class="muted" style="margin-top:8px">Demo, işbirliği veya yatırım konularında bizimle iletişime geçin.</p>
+        <form onsubmit="handleForm(event)" style="margin-top:12px">
+          <div class="grid-2">
+            <div>
+              <label for="name">Adınız</label>
+              <input id="name" name="name" required placeholder="Adınız ve soyadınız" />
+            </div>
+            <div>
+              <label for="email">E-posta</label>
+              <input id="email" name="email" type="email" required placeholder="mail@ornek.com" />
+            </div>
+          </div>
+          <div style="margin-top:12px">
+            <label for="message">Mesaj</label>
+            <textarea id="message" name="message" rows="5" placeholder="Kısa bir mesaj bırakın..."></textarea>
+          </div>
+          <div style="margin-top:12px;display:flex;gap:12px">
+            <button type="submit" class="cta">Gönder</button>
+            <button type="button" onclick="fillExample()" style="background:transparent;border:1px solid rgba(255,255,255,0.04);padding:10px;border-radius:10px;color:var(--muted)">Örnek Doldur</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+  <div>&copy; <span id="year"></span> Emine Eroğlu. Tüm hakları saklıdır.</div>
+      <div class="muted">Hazırlandığı tarih: <span id="today"></span></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('today').textContent = new Date().toLocaleDateString('tr-TR');
+
+    function handleForm(e){
+      e.preventDefault();
+      // Bu örnek dosyada backend yok. Gerçek kullanım için formu bir API'ye veya e-posta servisine bağlayın.
+      const name = document.getElementById('name').value;
+      alert(name + ' — mesajınız alındı. (Bu bir demo uyarısıdır — backend bağlantısı yok)');
+      e.target.reset();
+    }
+
+    function fillExample(){
+      document.getElementById('name').value = 'Ahmet Yılmaz';
+      document.getElementById('email').value = 'ahmet@example.com';
+      document.getElementById('message').value = 'Pilot program hakkında bilgi almak istiyorum. Şehirimizde pilot uygulama yapılabilir mi?';
+    }
+  </script>
+</body>
+</html>
